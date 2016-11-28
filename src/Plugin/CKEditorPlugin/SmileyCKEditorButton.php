@@ -34,11 +34,10 @@ class SmileyCKEditorButton extends CKEditorPluginBase {
   public function getButtons() {
     // Make sure that the path to the image matches the file structure of
     // the CKEditor plugin you are implementing.
-    $path = '/libraries/smiley';
     return array(
       'Smiley' => array(
         'label' => t('Smiley ckeditor button'),
-        'image' => $path . '/icons/smiley.png',
+        'image' => 'libraries/smiley/icons/smiley.png',
       ),
     );
   }
@@ -47,10 +46,7 @@ class SmileyCKEditorButton extends CKEditorPluginBase {
    * {@inheritdoc}
    */
   public function getFile() {
-    // Make sure that the path to the plugin.js matches the file structure of
-    // the CKEditor plugin you are implementing.
-    $path = '/libraries/smiley';
-      return $path . '/plugin.js';
+      return 'libraries/smiley/plugin.js';
   }
 
   /**
