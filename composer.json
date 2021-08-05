@@ -1,13 +1,13 @@
 {
   "name": "drupal/ckeditor_smiley",
   "type": "drupal-module",
-  "description": "My Awesome Module",
+  "description": "Adds the Insert Smiley plugin to CKEditor.",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
   "homepage": "https://www.drupal.org/project/ckeditor_smiley",
   "minimum-stability": "dev",
   "support": {
-    "issues": "http://drupal.org/project/issues/ckeditor_smiley",
+    "issues": "https://www.drupal.org/project/issues/ckeditor_smiley",
     "source": "http://cgit.drupalcode.org/ckeditor_smiley"
   },
   "require": { }
